@@ -1,0 +1,5 @@
+query UniqueCounties {
+    uniqueCounties {
+        county_name
+    }
+}

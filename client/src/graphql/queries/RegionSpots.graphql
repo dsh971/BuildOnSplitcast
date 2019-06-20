@@ -1,0 +1,13 @@
+query RegionSpots (
+    $countyName: String
+) {
+    regionSpots(
+        countyName: $countyName
+    ) {
+        county_name
+        latitude
+        longitude
+        spot_id
+        spot_name
+    }
+}
